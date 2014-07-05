@@ -50,7 +50,8 @@ body {
 }
 
 .first-ribbon {
-	background-color: white;
+	background-image:url("https://cristinapalop.files.wordpress.com/2014/05/img_0057.jpg");
+	background-size: 100% auto;
 	display: inline-block;
 	float: left;
 	width: 100%;
@@ -59,7 +60,8 @@ body {
 }
 
 .second-ribbon {
-	background-color: purple;
+	background-image: url("http://wallvafer.com/wp-content/uploads/2014/05/cat-wallpaper-1920x1080-171.jpg");
+	background-size: 100% auto;
 	display: inline-block;
 	float: left;
 	width: 100%;
@@ -76,3 +78,20 @@ body {
 .main-heading {
 	text-align: center;
 }
+
+.image {
+	text-align: center;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}	
+
+.image img{
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	margin: 1px 1px 1px 1px;
+	border-radius: 5px;
+
+}
+
